@@ -68,3 +68,38 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+#To run Docker and Deploying React App
+Step 1: Install ubuntu
+
+step 2: Install vscode : sudo dpkg -i code code_1.98.1-1718141439_amd64.deb
+
+step 3 to install any package using supo apt install package name ex: sudo apt install nodejs
+
+step 4 open vscode through ubuntu terminal
+
+step 5 and in vscode install docker extension
+
+step 6 Create a Docker file -> name it as DockerFile and start writing the instruction
+
+step 7 For Docker Image go to official website -> if u go to  https://hub.docker.com/ 
+
+step 8 Now we go to terminal tell our docker to package our application , we say docker build and we need to give our image a tag  
+
+a tag to identify  
+
+step 9 Docker build –t next specify the name ex: Docker build -t hello-docker .
+
+step 10 to run the project in docker -> sudo docker run hello-docker 
+
+step 11 in terminal add sudo docker images to see your image
+
+step 12 to see all image you can use sudo docker ps a state
+
+step 13 : to see only images which is in running state sudo docker ps
+
+step 14: to run a container -> sudo docker run –it ubuntu to run a container 
+
+Reference From: https://www.youtube.com/watch?v=pTFZFxd4hOI
+Thanks to Mosh
