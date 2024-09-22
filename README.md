@@ -71,6 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 #To run Docker and Deploying React App
+https://youtu.be/8mns5yqMfZk?si=7pRIf6_C77kCb9PE
 Step 1: Install ubuntu
 
 step 2: Install vscode : sudo dpkg -i code code_1.98.1-1718141439_amd64.deb
