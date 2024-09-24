@@ -90,7 +90,8 @@ step 8 Now we go to terminal tell our docker to package our application , we say
 
 a tag to identify  
 
-step 9 Docker build –t next specify the name ex: Docker build -t hello-docker .
+step 9 Docker build –t next specify the name ex: sudo docker build -t and the directory name mentioned in dockerfile .
+to see the image use sudo docker image ls
 
 step 10 to run the project in docker -> sudo docker run hello-docker 
 
